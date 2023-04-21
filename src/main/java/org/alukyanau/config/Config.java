@@ -11,7 +11,7 @@ public class Config {
 
     static {
         bucketName = "s3-task2-anton-lukyanau";
-        profileName = "user2";
+        profileName = "user1";
         credentialsProvider = new ProfileCredentialsProvider(Config.profileName);
         adminCredentialsProvider = new ProfileCredentialsProvider("default");
     }
